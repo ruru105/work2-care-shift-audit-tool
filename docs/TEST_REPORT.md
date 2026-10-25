@@ -1,8 +1,9 @@
 # テスト報告
 
-実行環境：Linux、Python 3.12.14、pytest 8.4.2。
+実行環境：Linux、Python 3.13.16、pytest 9.1.1。
 実行コマンド：`python -m pytest -q --junitxml=docs/test-results.xml`。
-結果：**115 passed**(2026-10-06時点。公開前にパソコン側でも全件実行)。GitHub Actions上でも実行し、成功しています。
+結果：**121 passed**(2026-10-25時点)。変更を公開するたびに、GitHub Actions上でも同じテストが自動で実行されます。
+(参考:2026-10-06時点は115件。その後、不足枠の修正案(`--suggest`)のテスト6件を追加)
 
 |対象|重大NG|要確認|配布判定|
 |---|---:|---:|---|
